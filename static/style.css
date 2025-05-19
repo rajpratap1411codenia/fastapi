@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.home_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/static/car.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav_content{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav_content h1{
+    font-size: 28px;
+    color: cyan;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+.nav_url{
+    margin-right: 30px;
+}
+
+.nav_url a{
+    color: white;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 0.3s ease;
+}
+
+.nav_url a:hover {
+    color: cyan;
+}
+
+.homepage_content{
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: rgba(21, 21, 21, 0.7);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.homep_items{
+    
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    padding: 20px;
+    /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);*/
+    box-sizing: border-box;
+}
+.homep_items h1{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0px;
+}
+.homep_items p{
+    color: white;
+    font-size: 16px;
+    font-family: Vardana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0px;
+}
+
+.home_btn{
+    background-color: blue;
+    color: white;
+    height: 6vh;
+    width: 15vh;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: Vardana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize; 
+    cursor: pointer;
+}
+.fav_car_section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.fav_heading{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fav_heading h1{
+    font-size: 30px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    text-transform: capitalize;
+}
+.fav_car_items{
+    height: 60vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ind_cars_items{
+    height: 45vh;
+    width: 42vh;
+    background-color: blue;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
+}
