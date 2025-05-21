@@ -121,18 +121,111 @@ body {
 .fav_car_items{
     height: 60vh;
     width: 100%;
-    background-color: blueviolet;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .ind_cars_items{
     height: 45vh;
-    width: 42vh;
-    background-color: blue;
+    width: 39vh;
+    background-color: rgb(28, 27, 27, o.88);
     margin: 0 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
     
 }
-/*  Hello for update */
+.ind_cars_items:hover{
+    outline: 4px solid white;
+    outline-offset: 2px;
+
+}
+.ind_cars_items img{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+.ind_cars_items h1{
+    font-size: 25px;
+    font-family: vardana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin: 8px;
+    color: cyan;
+}
+.ind_cars_items p{
+    color: white;
+    font: 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.items_cars {
+    height: 200vh;
+    width: 100%;
+    background-color: black;
+}
+.items_heading {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items_heading h1 {
+    font-size: 36px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.cars_carts {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ind_carts_cars {
+    height: 40vh;
+    width: 35vh;
+    background-color: rgb(30, 29, 29);
+    margin: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.ind_carts_cars img {
+    height: 50%;   
+    width: 100%;
+    object-fit: cover;
+    
+}
+.ind_carts_cars h1 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin: 8px;
+    color: cyan;
+}
+.ind_carts_cars p {
+    color: white;
+    font-size: 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+.ind_carts_cars:hover{
+    outline: 4px solid white;
+    outline-offset: 2px;
+}
+.cont{
+    height: 60vh;
+    width: 100%;
+    background-color:blueviolet
+}
+.cont_heading{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
